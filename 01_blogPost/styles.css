@@ -80,3 +80,13 @@ aside .tag-cloud {
     padding: 15px 35px 10px 0;
     text-align: center;
 }
+
+footer {
+    clear: both;
+    color: #777;
+    padding: 10px 50px;
+}
+
+.artBlog {
+    clear: both;
+}
