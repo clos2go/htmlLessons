@@ -36,6 +36,24 @@ nav span {
     color: #fff;
 }
 
+/* CSS Offset */
+/* nav header {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+} */
+
+nav header {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 0;
+}
+
 section {
     float:left;
     padding: 35px;
@@ -54,7 +72,7 @@ section header {
     padding: 0;
 }
 
-section h2 {
+section h1 h2 {
     font-size: 2.3em;
 }
 
@@ -71,7 +89,7 @@ aside {
     width: 25%;
 }
 
-aside h2 {
+aside h1 h2 {
     color: #888;
     font-size: 1.8em;
 }
@@ -81,12 +99,61 @@ aside .tag-cloud {
     text-align: center;
 }
 
+aside .tag-cloud li {
+    display: inline
+}
+aside .tag-cloud a {
+    color: #69a
+}
+aside .tag-cloud a:hover {
+    color: #a67
+}
+aside .tag-cloud .w1 {
+    font-size: .8em
+}
+aside .tag-cloud .w2 {
+    font-size: 1em
+}
+aside .tag-cloud .w3 {
+    font-size: 1.1em
+}
+aside .tag-cloud .w4 {
+    font-size: 1.2em
+}
+aside .tag-cloud .w5 {
+    font-size: 1.3em
+}
+aside .tag-cloud .w6 {
+    font-size: 1.4em
+}
+aside .tag-cloud .w7 {
+    font-size: 1.5em
+}
+aside .tag-cloud .w8 {
+    font-size: 1.6em
+}
+aside .tag-cloud .w9 {
+    font-size: 1.8em
+}
+aside .tag-cloud .w10 {
+    font-size: 2em
+}
+
 footer {
     clear: both;
     color: #777;
     padding: 10px 50px;
 }
 
-.artBlog {
-    clear: both;
+
+header:hover,
+nav:hover,
+section:hover,
+aside:hover,
+footer:hover {
+    background: #eee;
+}
+
+article:hover {
+    background: #ccc;
 }
