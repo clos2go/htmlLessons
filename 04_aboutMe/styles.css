@@ -1,0 +1,66 @@
+header, footer, aside, section {
+    background-color: green;
+    color: white;
+    padding: 24px, 14px;
+    margin: 0 1.6% 24px 1.5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px grey;
+    font: 14px/24px "Lucida console"
+}
+
+footer, header {
+    text-align: center;
+    clear:both;
+}
+
+section {
+    float: left;
+    /* width: 30%; */
+    /* Flex Example */
+    width: 95%;
+}
+
+aside {
+    float: right;
+    width: 60%;
+}
+
+#carlosLopez {
+    float:right;
+    margin-left: 10px;
+}
+
+code {
+    background:green;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.column {
+  margin: 0.5em;
+  min-height: 8em;
+  padding: 1em;
+  width: 40%;
+}
+
+.aside {
+  margin: 0.5em;
+  min-height: 8em;
+  padding: 1em;
+  width: 15%;
+  background-color: lightBlue;
+}
+
+.column:nth-child(1) { background-color: #9df5ba; }
+.column:nth-child(2) { background-color: #9df5d7; }
