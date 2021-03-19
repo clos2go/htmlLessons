@@ -1,0 +1,159 @@
+header {
+    color: #007e99;
+    font-size: 2.5em;
+    padding: 20px 50px;
+}
+
+header span {
+    color: #722;
+}
+
+nav {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 20px 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+* html nav ul {
+    margin-left: -15px;
+}
+
+nav span, nav a {
+    padding: 3px 15px 4px;
+}
+
+nav span {
+    background: #722;
+    color: #fff;
+}
+
+/* CSS Offset */
+/* nav header {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+} */
+
+nav header {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 0;
+}
+
+section {
+    float:left;
+    padding: 35px;
+    position: relative;
+    width: 70%;
+}
+
+section article {
+    margin: 0 50px 40px;
+    padding: 25px;
+    position: relative;
+}
+
+section header {
+    font-size: 1em;
+    padding: 0;
+}
+
+section h1 h2 {
+    font-size: 2.3em;
+}
+
+figure {
+    font-style: italic;
+    font-size: 0.8em;
+    width: 100%;
+}
+
+aside {
+    float: right;
+    padding: 70px 0 30px;
+    position: relative;
+    width: 25%;
+}
+
+aside h1 h2 {
+    color: #888;
+    font-size: 1.8em;
+}
+
+aside .tag-cloud {
+    padding: 15px 35px 10px 0;
+    text-align: center;
+}
+
+aside .tag-cloud li {
+    display: inline
+}
+aside .tag-cloud a {
+    color: #69a
+}
+aside .tag-cloud a:hover {
+    color: #a67
+}
+aside .tag-cloud .w1 {
+    font-size: .8em
+}
+aside .tag-cloud .w2 {
+    font-size: 1em
+}
+aside .tag-cloud .w3 {
+    font-size: 1.1em
+}
+aside .tag-cloud .w4 {
+    font-size: 1.2em
+}
+aside .tag-cloud .w5 {
+    font-size: 1.3em
+}
+aside .tag-cloud .w6 {
+    font-size: 1.4em
+}
+aside .tag-cloud .w7 {
+    font-size: 1.5em
+}
+aside .tag-cloud .w8 {
+    font-size: 1.6em
+}
+aside .tag-cloud .w9 {
+    font-size: 1.8em
+}
+aside .tag-cloud .w10 {
+    font-size: 2em
+}
+
+footer {
+    clear: both;
+    color: #777;
+    padding: 10px 50px;
+}
+
+
+header:hover,
+nav:hover,
+section:hover,
+aside:hover,
+footer:hover {
+    background: #eee;
+}
+
+article:hover {
+    background: #ccc;
+}
