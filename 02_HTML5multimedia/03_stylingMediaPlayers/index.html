@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Styling Media Players with CSS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="init()">
+    <section>
+        <h1>Styling Media Players with CSS</h1>
+        <figure id="figaudio1">
+        <img id="imghorse" width="200"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Nokota_Horses.jpg"
+            alt = "a horse"/>
+        <figcaption id="figcptionaudio1"> Press Play to hear the horse!
+            <audio controls="controls">
+            <source src="https://mainline.i3s.unice.fr/mooc/horse.ogg"
+                    type="audio/ogg" />
+            <source src="https://mainline.i3s.unice.fr/mooc/horse.mp3"
+                    type="audio/mp3" />
+            Your browser does not support the audio element.
+            Download the audio/video in
+            <a href=”https://mainline.i3s.unice.fr/mooc/horse.ogg”>OGG</a>
+            or <a href=”https://mainline.i3s.unice.fr/mooc/horse.mp3”>MP3</a>
+                format.
+        </audio>
+        </figcaption>
+        </figure>
+    </section>
+    <section>
+        <video id="w3devCampusVideo" controls>
+            <source src=https://mainline.i3s.unice.fr/mooc/samuraiPizzacat.webm
+                    type=video/webm>
+            <source src=https://mainline.i3s.unice.fr/mooc/samuraiPizzacat.ogg
+                    type=video/ogg>
+            <source src=https://mainline.i3s.unice.fr/mooc/samuraiPizzacat.mp4
+                    type=video/mp4>
+        </video>
+    </section>
+    <!--    Auto resize JS  (onload in body element) Full width video like paypal site-->
+    <!-- <section>
+        <video id="myVideo" controls>
+            <source src=http://mainline.i3s.unice.fr/mooc/samuraiPizzacat.webm type=video/webm> 
+            <source src=http://mainline.i3s.unice.fr/mooc/samuraiPizzacat.ogg type=video/ogg> 
+            <source src=http://mainline.i3s.unice.fr/mooc/samuraiPizzacat.mp4 type=video/mp4> 
+        </video>
+    </section> -->
+    <!--    Same thing but with a youtube iframe -->
+    <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/mH2fXEeZUvk?rel=0&autoplay=1&modestbranding=1&controls=0"  allowfullscreen></iframe>
+
+
+    <script src="scripts.js" async defer></script>
+</body>
+</html>

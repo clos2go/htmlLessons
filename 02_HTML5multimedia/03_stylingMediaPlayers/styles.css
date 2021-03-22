@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#figaudio1 {
+    width: 420px;
+    text-align: center;
+    padding: 6px;
+    background-color: white;
+    margin:0 11px 0px 0;
+    border: solid 1px #88888888;
+    border-radius: 8px;
+}
+
+#figcptionaudio1 {
+    font-size: .8em;
+    padding: 6px 8px;
+    background-color: #dddddd;
+    display: block;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-radius: 7px;
+}
+
+#figaudio1 > img {
+    background-color: #eeeeee;
+    padding: 5px;
+    border: solid 1px #444444;
+}
+
+/*  For audio and img transitions/animation  */
+
+audio, #figaudio1> img {
+    transition: all 0.5s;
+}
+
+#figaudio1 > img:hover {
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+audio:hover, audio:focus, audio:active {
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}
+
+/*       2nd Video     */
+#w3devCampusVideo {
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+ 
+#w3devCampusVideo:hover {
+    width:400px;
+    transform:rotate(-5deg);
+}
+
+video {
+    width: 95%;
+    height: auto;
+}
