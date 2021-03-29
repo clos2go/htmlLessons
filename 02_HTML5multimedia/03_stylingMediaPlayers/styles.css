@@ -37,6 +37,11 @@ audio, #figaudio1> img {
     transition: all 0.5s;
 }
 
+body {
+    background-color: burlywood;
+}
+
+
 #figaudio1 > img:hover {
     box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
     transform: scale(1.05);
