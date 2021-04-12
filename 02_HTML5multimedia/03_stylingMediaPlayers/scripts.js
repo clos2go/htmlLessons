@@ -23,7 +23,6 @@ function titleCase(title, minorWords) {
 
 
   for (i = 0; i < titleArr.length; i++) {
-console.log(minorArr.includes(titleArr[i]))
       for (j = 0; j < titleArr[i].length; j++) {
         // console.log(title.arr[i])
         
